@@ -13,20 +13,24 @@ foods = {
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-console.log(Object.keys(foods));
+
+//console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-console.log(Object.values(foods));
+
+//console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-console.log(foods.grapes);
+
+//console.log(foods.grapes);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-foods.celerySticks = 101;
-console.log(foods);
+
+// foods.celerySticks = 101;
+// console.log(foods);
 
 
 //#-------------------
@@ -40,16 +44,26 @@ console.log(foods);
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+var testEmail = {
+  sender: "teacher@teach.com",
+  subject: "just checking in...",
+  time: "8:04 PM",
+  date: "November, 10 2022",
+  minutesAgo: 5,
+  to: ["gabby", "jack", "barry", "ava", "james"]
+}
+
 // Write code that logs your email object to the terminal.
 
+// console.log(testEmail);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+// console.log(Object.keys(testEmail));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+// console.log(Object.values(testEmail));
 
 
 //#-------------------
@@ -87,8 +101,8 @@ posts = [
   }
 ];
 
-console.log(posts);
-console.log(posts[0]);
+// console.log(posts);
+// console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -100,3 +114,32 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var emailInbox = [
+  {
+    sender: "news@news.com",
+    subject: "today's news",
+    time: "6:06 AM",
+    date: "today",
+    minutesAgo: 19,
+    to: "email list"
+  },
+  {
+    sender: "Newberry Library",
+    subject: "Pictures Literally Worth a Thousand Words",
+    time: "12:01 PM",
+    date: "today",
+    minutesAgo: 3,
+    to: "email list"
+  },
+  {
+    sender: "GoodReads",
+    subject: "There's a New Giveaway for a Book You've Shelved",
+    time: "5:51 AM",
+    date: "Nov, 1, 2022",
+    minutesAgo: "9 days",
+    to: "you@you.com"
+  }
+]
+
+console.log(emailInbox);
