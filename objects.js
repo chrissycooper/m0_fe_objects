@@ -14,23 +14,23 @@ foods = {
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
 
-//console.log(Object.keys(foods));
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 
-//console.log(Object.values(foods));
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 
-//console.log(foods.grapes);
+console.log(foods.grapes);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 
-// foods.celerySticks = 101;
-// console.log(foods);
+foods.celerySticks = 101;
+console.log(foods);
 
 
 //#-------------------
@@ -55,15 +55,15 @@ var testEmail = {
 
 // Write code that logs your email object to the terminal.
 
-// console.log(testEmail);
+console.log(testEmail);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// console.log(Object.keys(testEmail));
+console.log(Object.keys(testEmail));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// console.log(Object.values(testEmail));
+console.log(Object.values(testEmail));
 
 
 //#-------------------
@@ -101,8 +101,8 @@ posts = [
   }
 ];
 
-// console.log(posts);
-// console.log(posts[0]);
+console.log(posts);
+console.log(posts[0]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
